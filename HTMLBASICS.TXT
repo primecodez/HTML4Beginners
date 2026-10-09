@@ -1,0 +1,58 @@
+#BASICS OF HTML:
+
+        YOU MIGHT HAVE SEEN THIS BEFORE 
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Webpage</title>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <p>This is my webpage.</p>
+</body>
+
+</html>
+
+HTML DOCUMENTS MAINLY HAVE THIS STRUCTURE
+HTML document
+│
+├── <head>
+│   │
+│   └── <title>
+│
+└── <body>
+    ├── headings
+    ├── paragraphs
+    ├── links
+    ├── images
+    ├── buttons
+    
+1. <!DOCTYPE html>
+Tells the browser that the document uses HTML5.
+
+2. <html>
+The root element.
+Contains the entire HTML document.
+
+3. <head>
+Contains information about the webpage, mainly for the browser and other systems.
+Usually not displayed as the main page content.
+Can contain metadata, CSS links, scripts, and the <title>.
+
+4. <title>
+Defines the title of the HTML document.
+Usually appears in the browser tab, bookmarks, etc.
+It is placed inside <head>.
+
+#NOTE:
+Title ≠ URL
+
+https://example.com → where the webpage is located
+Example Website → the webpage's title
+
+5. <body>
+Contains the main content of the webpage that users interact with or see.
+
