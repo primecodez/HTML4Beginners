@@ -1,0 +1,26 @@
+->CSS first selects WHAT you want to style, and then specifies HOW you want to style it.
+EX2.HTML CONTAINS CODE FOR CLASS IN HTML
+
+<style>
+.mycontainer {
+  width: 100%;
+  overflow: auto;
+}
+
+.mycontainer div {
+  width: 33%;
+  float: left;
+}
+</style>
+
+->Selector: Which HTML element(s) should receive the styling?
+->Properties and values: What styling should those elements receive?
+
+CSS:
+Target .mycontainer → Give it width: 100%.
+
+                    EXPLANATION OF CODE:
+        .mycontainer HERE THE . IN CSS SELECTS A CLASS
+
+        Notice the space between .mycontainer and div.
+That space means select every div element that is inside an element with the class mycontainer, at any nesting depth.
