@@ -1,0 +1,7 @@
+EX4.HTML CONTAINS EXAMPLE OF UNIVERSAL SELECTOR AND BOX-SIZING
+
+What does * mean?
+* is the universal selector. It selects every HTML element on the page.
+What does box-sizing: border-box do?
+By default, when you give an element a width, its padding and border can increase its total width.
+With border-box, the specified width includes the content, padding, and border.
